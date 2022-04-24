@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Sodexo csv export",
+    "version": "0.0.0",
+    "description": "(Not affiliated with the company, just providing missing functionality) Provides an additional button for download of transactions as csv file.",
+    
+    "content_scripts": [
+      {
+        "matches": ["*://*.mysodexocard.de/transaktionen/"],
+        "js": ["content_scripts/index.js"]
+      }
+    ],
+
+    "permissions": ["activeTab", "contextMenus"]
+}
