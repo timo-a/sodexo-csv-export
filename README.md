@@ -7,5 +7,5 @@ adds the a button to download transactions on https://www.mysodexocard.de/transa
  - `npm run build`
 
 ## How to package it
-
- - `zip -r -FS ../my-extension.zip * --exclude '*.git*' --exclude node_modules/`
+ - `cd addon`
+ - `zip -r -FS ../my-extension.zip *`
