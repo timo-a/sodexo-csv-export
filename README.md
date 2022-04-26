@@ -8,4 +8,4 @@ adds the a button to download transactions on https://www.mysodexocard.de/transa
 
 ## How to package it
  - `cd addon`
- - `zip -r -FS ../my-extension.zip *`
+ - `zip -r -FS ../sodexo-csv-export.zip *`
