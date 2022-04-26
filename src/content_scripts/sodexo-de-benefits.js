@@ -55,8 +55,7 @@ function parse_row_message(element) {
         console.error(`unexpected inner tag ${child.tagName} while parsing column 5.`);
     }
 
-    //if (!child.className.match(/transaction-(?:success|error)-message/)) {
-    if (false) {
+    if (!child.className.match(/transaction-( success|error)-message/)) {
             console.error(`unexpected inner class name ${child.className} while parsing column 6.`);
     }
     return child.innerText
