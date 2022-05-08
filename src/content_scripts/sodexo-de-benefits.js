@@ -110,7 +110,7 @@ export_csv = function() {
     console.log(_from)
     console.log(_to)
     var blob = new Blob(b, {type: "text/plain;charset=utf-8"});
-    FileSaver.saveAs(blob, `sodexo_transactions_${_from}_to_${_to}.txt`);
+    FileSaver.saveAs(blob, `sodexo_transactions_${_from}_to_${_to}.csv`);
 }
 
 //add button
