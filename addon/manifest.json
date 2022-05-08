@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Sodexo csv export",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "(Not affiliated with the company, just providing missing functionality) Provides an additional button for download of transactions as csv file.",
     
     "content_scripts": [
