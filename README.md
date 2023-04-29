@@ -1,5 +1,9 @@
+:headstone: This repository is no longer maintained because I no longer use a sodexo card :headstone:
+
 # Sodexo csv export
-adds the a button to download transactions on https://www.mysodexocard.de/transaktionen/ as csv file.
+adds a button to download transactions on https://www.mysodexocard.de/transaktionen/ as csv file.
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/sodexo-csv-export/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a>
 
 ## How to build it
 
